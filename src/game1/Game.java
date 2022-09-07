@@ -24,7 +24,7 @@ public class Game {
     public static void main(String[] args) throws Exception {
         Game game = new Game();
         View view = new View(game);
-        new JEasyFrame(view, "CE218 Asteroid Game Project").addKeyListener(game.ctrl);
+        new JEasyFrame(view, "Asteroid Game Project").addKeyListener(game.ctrl);
         while (true) {
             game.update();
             view.repaint();
